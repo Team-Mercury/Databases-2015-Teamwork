@@ -14,8 +14,12 @@
             this.HDD = hdd;
             this.Laptops = new HashSet<Laptop>();
         }
+
+        public Model()
+        {
+        }
         
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 

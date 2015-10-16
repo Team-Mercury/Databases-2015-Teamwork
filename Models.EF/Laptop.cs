@@ -2,21 +2,23 @@
 {
     public class Laptop
     {
-        public Laptop(string makerID, string modelID, decimal price, int quntity)
+        public Laptop(decimal price, int quntity)
         {
-            this.MakerID = makerID;
-            this.ModelID = modelID;
             this.Price = price;
             this.Quantity = quntity;
         }
 
-        public string Id { get; set; }
+        public Laptop()
+        {
+        }
 
-        public string MakerID { get; set; }
+        public int Id { get; set; }
+
+        public int MakerID { get; set; }
 
         public virtual Maker Maker { get; set; }
 
-        public string ModelID { get; set; }
+        public int ModelID { get; set; }
 
         public virtual Model Model { get; set; }
 

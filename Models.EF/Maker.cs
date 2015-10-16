@@ -14,7 +14,11 @@
             this.Laptops = new HashSet<Laptop>();
         }
 
-        public string Id { get; set; }
+        public Maker()
+        {
+        }
+
+        public int Id { get; set; }
 
         public string Name { get; set; }
 
