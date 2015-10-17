@@ -59,9 +59,9 @@
                 new Model("S8", "Intel Core i7-6700K", 8, 2256),
                 new Model("S9", "Intel Core i7-6700K", 8, 1000),
                 new Model("Y7", "NTEL CELERON N3050 DUAL CORE", 4, 1000),
-                new Model("Y7", "NTEL CELERON N3050 DUAL CORE", 8, 1000),
-                new Model("Y7", "NTEL CELERON N3050 DUAL CORE", 8, 500),
-                new Model("Y7", "NTEL CELERON N3050 DUAL CORE", 6, 1008),
+                new Model("Y8", "NTEL CELERON N3050 DUAL CORE", 8, 1000),
+                new Model("Y9", "NTEL CELERON N3050 DUAL CORE", 8, 500),
+                new Model("Y4", "NTEL CELERON N3050 DUAL CORE", 6, 1008),
             });
         }
 

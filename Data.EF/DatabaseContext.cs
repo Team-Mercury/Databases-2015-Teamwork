@@ -14,5 +14,7 @@
         public virtual IDbSet<Maker> Makers { get; set; }
 
         public virtual IDbSet<Laptop> Laptops { get; set; }
+
+        public virtual IDbSet<Order> Orders { get; set; }
     }
 }

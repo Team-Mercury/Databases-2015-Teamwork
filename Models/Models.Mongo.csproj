@@ -59,6 +59,7 @@
     <Compile Include="Laptop.cs" />
     <Compile Include="Maker.cs" />
     <Compile Include="Model.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

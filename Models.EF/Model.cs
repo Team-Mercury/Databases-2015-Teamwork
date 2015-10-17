@@ -1,6 +1,8 @@
 ﻿namespace Models.EF
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Model
     {
@@ -21,8 +23,11 @@
         
         public int Id { get; set; }
 
+        [StringLength(40)]
+        [Index(IsUnique = true)]
         public string Name { get; set; }
 
+        [StringLength(30)]
         public string CPU { get; set; }
 
         public int RAM { get; set; }

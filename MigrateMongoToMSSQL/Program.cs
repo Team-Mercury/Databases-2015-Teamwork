@@ -39,11 +39,11 @@
             ICollection<string> modelIDsMongo = new HashSet<string>();
             var modelsMongo = mongoDB.GetCollection<Models.Mongo.Model>("Models").FindAll().Select(m => m).ToList();
 
-            foreach (var model in modelsMongo)
+            foreach (var Order in modelsMongo)
             {
-                modelIDsMongo.Add(model.Id);
+                modelIDsMongo.Add(Order.Id);
 
-                var newModel = new Models.EF.Model(model.Name, model.CPU, model.RAM, model.HDD);
+                var newModel = new Models.EF.Model(Order.Name, Order.CPU, Order.RAM, Order.HDD);
                 sqlDB.Models.Add(newModel);
             }
              
