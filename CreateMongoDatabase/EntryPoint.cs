@@ -76,7 +76,7 @@
                 laptopsCollection.InsertBatch<Laptop>(new[]{
                     new Laptop(makersIDs[i], modelsIDs[i], 1000 - i * i, (int)Math.Pow((i - 4), 2)),
                     new Laptop(makersIDs[i], modelsIDs[i + 3], 1500 - i * i, (int)Math.Pow((i - 5), 2)),
-                    new Laptop(makersIDs[i], modelsIDs[i + 3], 2500 - i * i, (int)Math.Pow((i - 6), 2)),
+                    new Laptop(makersIDs[i], modelsIDs[i + 6], 2500 - i * i, (int)Math.Pow((i - 6), 2)),
                 });
             }
         }
