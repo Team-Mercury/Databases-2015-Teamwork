@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMongoDatabase", "CreateMongoDatabase\CreateMongoDatabase.csproj", "{FE787E9C-B994-4DFA-A46A-A9D229617ECC}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrateMongoToMSSQL", "MigrateMongoToMSSQL\MigrateMongoToMSSQL.csproj", "{98A5967A-8A39-44CF-A7E6-A053B147A0CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDataFromXML", "LoadDataFromXML\LoadDataFromXML.csproj", "{0A5FEA71-25BA-44F3-987F-87F24BDEE8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDataReader", "ExcelDataReader\ExcelDataReader.csproj", "{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0A5FEA71-25BA-44F3-987F-87F24BDEE8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5FEA71-25BA-44F3-987F-87F24BDEE8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5FEA71-25BA-44F3-987F-87F24BDEE8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
