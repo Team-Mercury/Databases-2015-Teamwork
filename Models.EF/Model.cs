@@ -8,6 +8,8 @@
     {
         private ICollection<Laptop> laptops;
 
+        private ICollection<Order> orders;
+
         public Model(string name, string cpu, int ram, int hdd)
         {
             this.Name = name;
@@ -15,6 +17,7 @@
             this.RAM = ram;
             this.HDD = hdd;
             this.Laptops = new HashSet<Laptop>();
+            this.Orders = new HashSet<Order>();
         }
 
         public Model()
@@ -44,6 +47,19 @@
             set
             {
                 this.laptops = value;
+            }
+        }
+
+        public virtual ICollection<Order> Orders
+        {
+            get
+            {
+                return this.orders;
+            }
+
+            set
+            {
+                this.orders = value;
             }
         }
     }

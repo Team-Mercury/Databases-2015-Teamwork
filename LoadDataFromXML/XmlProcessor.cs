@@ -3,6 +3,7 @@
     using System.Collections.Generic;
     using Data.EF;
     using MongoDB.Driver;
+    using System.Linq;
 
     public static class XmlProcessor
     {
@@ -17,7 +18,15 @@
             {
                 foreach (var order in product.Orders)
                 {
-                    db.Orders.Add(new Models.EF.Order(product.ModelName, order.Month, order.Count));
+                    var orderToAdd = new Models.EF.Order(order.Month, order.Count);
+
+                    var modelOfOrder = db.Models
+                                        .Where(m => m.Name == product.ModelName)
+                                        .FirstOrDefault();
+
+                    orderToAdd.Model = modelOfOrder;
+                                           
+                    db.Orders.Add(orderToAdd);
                 }
             }
 

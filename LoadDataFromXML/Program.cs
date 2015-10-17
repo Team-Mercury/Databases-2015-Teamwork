@@ -1,11 +1,12 @@
 ﻿namespace LoadDataFromXML
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var productOrders = XmlParser.ParseFile("Orders-per-month.xml");
             XmlProcessor.ProcessToMongo(productOrders);
+            XmlProcessor.ProcessToMssql(productOrders);
         }
     }
 }

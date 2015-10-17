@@ -4,9 +4,8 @@
 
     public class Order
     {
-        public Order(string modelName, string month, int count)
+        public Order(string month, int count)
         {
-            this.ModelName = modelName;
             this.Month = month;
             this.Count = count;
         }
@@ -17,8 +16,7 @@
 
         public int Id { get; set; }
 
-        [StringLength(40)]
-        public string ModelName { get; set; } 
+        public int ModelID { get; set; } 
 
         public virtual Model Model { get; set; }
 
