@@ -1,0 +1,22 @@
+{
+  "MakerId": 13,
+  "MakerName": "Vizio",
+  "Models": [
+    {
+      "ModelName": "S5",
+      "Price": 856.00,
+      "Quantity": 64
+    },
+    {
+      "ModelName": "S9",
+      "Price": 1356.00,
+      "Quantity": 49
+    },
+    {
+      "ModelName": "Y9",
+      "Price": 2356.00,
+      "Quantity": 36
+    }
+  ],
+  "Profit": 206044.00
+}

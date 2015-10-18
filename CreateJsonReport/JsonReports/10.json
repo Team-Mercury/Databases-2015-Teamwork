@@ -1,0 +1,22 @@
+{
+  "MakerId": 10,
+  "MakerName": "Razer",
+  "Models": [
+    {
+      "ModelName": "S2",
+      "Price": 919.00,
+      "Quantity": 25
+    },
+    {
+      "ModelName": "S5",
+      "Price": 1419.00,
+      "Quantity": 16
+    },
+    {
+      "ModelName": "S9",
+      "Price": 2419.00,
+      "Quantity": 9
+    }
+  ],
+  "Profit": 67450.00
+}
