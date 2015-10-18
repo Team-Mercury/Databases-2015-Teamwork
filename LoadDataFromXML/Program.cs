@@ -4,7 +4,7 @@
     {
         public static void Main()
         {
-            var productOrders = XmlParser.ParseFile("Orders-per-month.xml");
+            var productOrders = XmlParser.ParseFile("../../../Files/Orders-per-month.xml");
             XmlProcessor.ProcessToMongo(productOrders);
             XmlProcessor.ProcessToMssql(productOrders);
         }
