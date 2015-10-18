@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrateMongoToMSSQL", "Migr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDataFromXML", "LoadDataFromXML\LoadDataFromXML.csproj", "{0A5FEA71-25BA-44F3-987F-87F24BDEE8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDataReader", "ExcelDataReader\ExcelDataReader.csproj", "{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReportReader", "ExcelDataReader\ExcelReportReader.csproj", "{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,8 +7,8 @@
     <ProjectGuid>{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExcelDataReader</RootNamespace>
-    <AssemblyName>ExcelDataReader</AssemblyName>
+    <RootNamespace>ExcelReportLoader</RootNamespace>
+    <AssemblyName>ExcelReportLoader</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExcelReportReadingProvider.cs" />
     <Compile Include="ExcelSheetReader.cs" />
     <Compile Include="ProductivityExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
