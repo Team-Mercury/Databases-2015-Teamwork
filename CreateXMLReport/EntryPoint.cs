@@ -3,6 +3,7 @@
     using System;
     using System.Linq;
     using System.Xml;
+    using Data.EF;
 
     public class EntryPoint
     {
@@ -10,7 +11,7 @@
         {
             Console.WriteLine("Extracting information from database and saving it to xml report...");
 
-            using (var db = new LaptopFactoryDBEntities())
+            using (var db = new DatabaseContext())
             {
                 // Query to sql server. Join three tables - Models, Laptops and Makers to take whole information about laptop. 
                 var laptops =
