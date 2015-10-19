@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDataFromXML", "LoadData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReportReader", "ExcelDataReader\ExcelReportReader.csproj", "{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteAndMySqlToExcel", "SqliteAndMySqlToExcel\SqliteAndMySqlToExcel.csproj", "{4E861EB6-86CD-4F9A-8011-FBDB89055B41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLReport", "CreateXMLReport\CreateXMLReport.csproj", "{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateJsonReport", "CreateJsonReport\CreateJsonReport.csproj", "{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +55,14 @@ Global
 		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

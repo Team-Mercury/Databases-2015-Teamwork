@@ -1,0 +1,22 @@
+{
+  "MakerId": 12,
+  "MakerName": "Medion",
+  "Models": [
+    {
+      "ModelName": "S4",
+      "Price": 879.00,
+      "Quantity": 49
+    },
+    {
+      "ModelName": "S8",
+      "Price": 1379.00,
+      "Quantity": 36
+    },
+    {
+      "ModelName": "Y8",
+      "Price": 2379.00,
+      "Quantity": 25
+    }
+  ],
+  "Profit": 152190.00
+}

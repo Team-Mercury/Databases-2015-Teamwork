@@ -1,0 +1,22 @@
+{
+  "MakerId": 3,
+  "MakerName": "HP",
+  "Models": [
+    {
+      "ModelName": "A3",
+      "Price": 996.00,
+      "Quantity": 4
+    },
+    {
+      "ModelName": "E1",
+      "Price": 1496.00,
+      "Quantity": 9
+    },
+    {
+      "ModelName": "S1",
+      "Price": 2496.00,
+      "Quantity": 16
+    }
+  ],
+  "Profit": 57384.00
+}

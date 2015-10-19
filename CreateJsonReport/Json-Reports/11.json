@@ -1,0 +1,22 @@
+{
+  "MakerId": 11,
+  "MakerName": "LG",
+  "Models": [
+    {
+      "ModelName": "S3",
+      "Price": 900.00,
+      "Quantity": 36
+    },
+    {
+      "ModelName": "S7",
+      "Price": 1400.00,
+      "Quantity": 25
+    },
+    {
+      "ModelName": "Y7",
+      "Price": 2400.00,
+      "Quantity": 16
+    }
+  ],
+  "Profit": 105800.00
+}

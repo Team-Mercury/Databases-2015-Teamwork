@@ -1,0 +1,22 @@
+{
+  "MakerId": 4,
+  "MakerName": "Toshiba",
+  "Models": [
+    {
+      "ModelName": "E5",
+      "Price": 991.00,
+      "Quantity": 1
+    },
+    {
+      "ModelName": "E2",
+      "Price": 1491.00,
+      "Quantity": 4
+    },
+    {
+      "ModelName": "S2",
+      "Price": 2491.00,
+      "Quantity": 9
+    }
+  ],
+  "Profit": 29374.00
+}

@@ -1,0 +1,22 @@
+{
+  "MakerId": 7,
+  "MakerName": "Apple",
+  "Models": [
+    {
+      "ModelName": "E2",
+      "Price": 964.00,
+      "Quantity": 4
+    },
+    {
+      "ModelName": "S2",
+      "Price": 1464.00,
+      "Quantity": 1
+    },
+    {
+      "ModelName": "S5",
+      "Price": 2464.00,
+      "Quantity": 0
+    }
+  ],
+  "Profit": 5320.00
+}
