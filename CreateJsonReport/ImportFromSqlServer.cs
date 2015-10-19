@@ -15,7 +15,6 @@
                   {
                       MakerId = l.MakerID,
                       MakerName = l.Maker.Name,
-                      ModelName = l.Model.Name,
                       Price = l.Price,
                       Quantity = l.Quantity
                   })
