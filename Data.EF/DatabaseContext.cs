@@ -9,6 +9,8 @@
         {
         }
 
+        public virtual IDbSet<GraphicsCard> GraphicsCards { get; set; }
+
         public virtual IDbSet<Model> Models { get; set; }
 
         public virtual IDbSet<Maker> Makers { get; set; }
