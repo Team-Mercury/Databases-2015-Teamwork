@@ -13,48 +13,47 @@
 
         private static void ParseData(List<MakersLaptops> laptops)
         {
-            var manufactory = new JsonManufactoryObject();
+            var maker = new MakersProfit();
 
             foreach (var laptop in laptops)
             {
-                if (laptop.MakerId == manufactory.MakerId)
+                if (laptop.MakerId == maker.MakerId)
                 {
                     continue;
                 }
                 else
                 {
-                    manufactory = new JsonManufactoryObject();
+                    maker = new MakersProfit();
                 }
 
-                manufactory.MakerId = laptop.MakerId;
-                manufactory.MakerName = laptop.MakerName;
+                maker.MakerId = laptop.MakerId;
+                maker.MakerName = laptop.MakerName;
+
+                decimal profit = 0;
 
                 foreach (var item in laptops)
                 {
-                    if (manufactory.MakerId == item.MakerId)
+                    if (maker.MakerId == item.MakerId)
                     {
-                        manufactory.Models.Add(new JsonModelObject
-                        {
-                            ModelName = item.ModelName,
-                            Price = item.Price,
-                            Quantity = item.Quantity
-                        });
+                        profit += item.Price * item.Quantity;
                     }
-                    else if (manufactory.MakerId < item.MakerId)
+                    else if (maker.MakerId < item.MakerId)
                     {
                         break;
                     }
                 }
 
-                string json = JsonConvert.SerializeObject(manufactory, Formatting.Indented);
+                maker.Profit = profit;
 
-                SaveInFile(json, manufactory.MakerId);
+                string json = JsonConvert.SerializeObject(maker, Formatting.Indented);
+
+                SaveInFile(json, maker.MakerId);
             }
         }
 
         private static void SaveInFile(string json, int manufactoryId)
         {
-            string path = string.Format("../../Json-Reports/{0}.json", manufactoryId);
+            string path = string.Format("../../../Json-Reports/{0}.json", manufactoryId);
 
             using (StreamWriter file = new StreamWriter(path))
             {
