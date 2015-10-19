@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using PdfHandler;
-
-namespace ReadStuff
+﻿namespace PdfReports
 {
-    using ExcelReportLoader;
-    using Models.EF;
+    using System;
+
+    using PdfHandler;
+
     using Data.EF;
 
-    class Program
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             //int i = 1;
             //var dummyDb = new List<GraphicsCard>();
@@ -29,9 +25,9 @@ namespace ReadStuff
 
             //});
 
-            var pdfGenerator = new PdfFileExporter();
+            var pdfGenerator = new PdfReportGenerator();
 
-            pdfGenerator.GenerateComputersReports("../../../gosho", "gosho.pdf", new DatabaseContext());
+            pdfGenerator.GenerateComputersReports("../../../", "Sales reports", new DatabaseContext());
         }
     }
 }

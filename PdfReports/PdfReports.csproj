@@ -52,11 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,9 +70,9 @@
       <Project>{3b41eced-3042-4254-8fc4-b3385f16ce8a}</Project>
       <Name>Models.EF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PdfHandler\PdfHandler.csproj">
+    <ProjectReference Include="..\PdfReportGenerator\PdfReportGenerator.csproj">
       <Project>{33a6105e-864b-43e7-baf9-a5ecebc42556}</Project>
-      <Name>PdfHandler</Name>
+      <Name>PdfReportGenerator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
