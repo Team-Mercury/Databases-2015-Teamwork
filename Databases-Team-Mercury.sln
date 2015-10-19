@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMongoDatabase", "CreateMongoDatabase\CreateMongoDatabase.csproj", "{FE787E9C-B994-4DFA-A46A-A9D229617ECC}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLReport", "CreateXMLReport\CreateXMLReport.csproj", "{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateJsonReport", "CreateJsonReport\CreateJsonReport.csproj", "{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadStuff", "ReadStuff\ReadStuff.csproj", "{EE410041-7C6C-4AF6-A238-C2A174ED1893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfHandler", "PdfHandler\PdfHandler.csproj", "{33A6105E-864B-43E7-BAF9-A5ECEBC42556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE410041-7C6C-4AF6-A238-C2A174ED1893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE410041-7C6C-4AF6-A238-C2A174ED1893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE410041-7C6C-4AF6-A238-C2A174ED1893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE410041-7C6C-4AF6-A238-C2A174ED1893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
