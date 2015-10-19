@@ -1,7 +1,6 @@
 ﻿namespace CreateJsonReport
 {
     using System;
-    using System.Data.Entity;
 
     public class Startup
     {
