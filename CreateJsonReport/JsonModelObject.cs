@@ -1,6 +1,6 @@
 ﻿namespace CreateJsonReport
 {
-    public class Mod
+    public class JsonModelObject
     {
         public string ModelName { get; set; }
 

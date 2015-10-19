@@ -13,7 +13,7 @@
 
         private static void ParseData(List<MakersLaptops> laptops)
         {
-            var manufactory = new Manufactory();
+            var manufactory = new JsonManufactoryObject();
 
             foreach (var laptop in laptops)
             {
@@ -23,7 +23,7 @@
                 }
                 else
                 {
-                    manufactory = new Manufactory();
+                    manufactory = new JsonManufactoryObject();
                 }
 
                 manufactory.MakerId = laptop.MakerId;
@@ -33,7 +33,7 @@
                 {
                     if (manufactory.MakerId == item.MakerId)
                     {
-                        manufactory.Models.Add(new Mod
+                        manufactory.Models.Add(new JsonModelObject
                         {
                             ModelName = item.ModelName,
                             Price = item.Price,
@@ -54,7 +54,7 @@
 
         private static void SaveInFile(string json, int manufactoryId)
         {
-            string path = string.Format("../../JsonReports/{0}.json", manufactoryId);
+            string path = string.Format("../../Json-Reports/{0}.json", manufactoryId);
 
             using (StreamWriter file = new StreamWriter(path))
             {

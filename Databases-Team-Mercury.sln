@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMongoDatabase", "CreateMongoDatabase\CreateMongoDatabase.csproj", "{FE787E9C-B994-4DFA-A46A-A9D229617ECC}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReportReader", "ExcelDataReader\ExcelReportReader.csproj", "{3534CBEE-8EB5-4E14-B8CF-A4DE9EDA53D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateXMLReport", "CreateXMLReport\CreateXMLReport.csproj", "{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateJsonReport", "CreateJsonReport\CreateJsonReport.csproj", "{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8BAC4A-9088-4D63-A36D-725EC5FABFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A7EE9B-04DF-4959-A0D3-3F389DE31FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

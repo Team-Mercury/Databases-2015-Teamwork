@@ -59,8 +59,8 @@
     <Compile Include="ExportToJson.cs" />
     <Compile Include="ImportFromSqlServer.cs" />
     <Compile Include="MakersLaptops.cs" />
-    <Compile Include="Manufactory.cs" />
-    <Compile Include="Mod.cs" />
+    <Compile Include="JsonManufactoryObject.cs" />
+    <Compile Include="JsonModelObject.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

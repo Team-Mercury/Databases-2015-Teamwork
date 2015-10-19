@@ -2,18 +2,18 @@
 {
     using System.Collections.Generic;
 
-    public class Manufactory
+    public class JsonManufactoryObject
     {
-        public Manufactory()
+        public JsonManufactoryObject()
         {
-            this.Models = new List<Mod>();
+            this.Models = new List<JsonModelObject>();
         }
 
         public int MakerId { get; set; }
 
         public string MakerName { get; set; }
 
-        public List<Mod> Models { get; set; }
+        public List<JsonModelObject> Models { get; set; }
 
         public decimal Profit
         {
