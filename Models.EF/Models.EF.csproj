@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GraphicsCard.cs" />
     <Compile Include="Laptop.cs" />
     <Compile Include="Maker.cs" />
     <Compile Include="Model.cs" />

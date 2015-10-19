@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<classTypes>
+  <highClass>
+    <laptop>
+      <maker>Acer</maker>
+      <model>A1</model>
+      <parameters>
+        <cpu>Intel Core i7-4712MQ</cpu>
+        <ram>4</ram>
+        <hdd>1000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Asus</maker>
+      <model>A2</model>
+      <parameters>
+        <cpu>Intel Core i7-4712MQ</cpu>
+        <ram>8</ram>
+        <hdd>1000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>HP</maker>
+      <model>A3</model>
+      <parameters>
+        <cpu>Intel Core i7-4712MQ</cpu>
+        <ram>16</ram>
+        <hdd>1000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Medion</maker>
+      <model>S4</model>
+      <parameters>
+        <cpu>Intel Core i7-6700K</cpu>
+        <ram>6</ram>
+        <hdd>1256</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Sharp</maker>
+      <model>S7</model>
+      <parameters>
+        <cpu>Intel Core i7-6700K</cpu>
+        <ram>16</ram>
+        <hdd>2000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Vizio</maker>
+      <model>S5</model>
+      <parameters>
+        <cpu>Intel Core i7-6700K</cpu>
+        <ram>8</ram>
+        <hdd>1128</hdd>
+      </parameters>
+    </laptop>
+  </highClass>
+  <mediumClass>
+    <laptop>
+      <maker>Apple</maker>
+      <model>E2</model>
+      <parameters>
+        <cpu>Intel Core i5-5500U</cpu>
+        <ram>8</ram>
+        <hdd>1008</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Dell</maker>
+      <model>E3</model>
+      <parameters>
+        <cpu>Intel Core i5-5500U</cpu>
+        <ram>4</ram>
+        <hdd>2000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Lenovo</maker>
+      <model>E6</model>
+      <parameters>
+        <cpu>Intel Core i5-5500U</cpu>
+        <ram>4</ram>
+        <hdd>750</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>MSI</maker>
+      <model>E1</model>
+      <parameters>
+        <cpu>Intel Core i5-5500U</cpu>
+        <ram>6</ram>
+        <hdd>1000</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Toshiba</maker>
+      <model>E5</model>
+      <parameters>
+        <cpu>Intel Core i5-5500U</cpu>
+        <ram>4</ram>
+        <hdd>500</hdd>
+      </parameters>
+    </laptop>
+  </mediumClass>
+  <lowClass>
+    <laptop>
+      <maker>LG</maker>
+      <model>S3</model>
+      <parameters>
+        <cpu>Intel Core i3-4005U</cpu>
+        <ram>16</ram>
+        <hdd>1008</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Razer</maker>
+      <model>S2</model>
+      <parameters>
+        <cpu>Intel Core i3-4005U</cpu>
+        <ram>8</ram>
+        <hdd>500</hdd>
+      </parameters>
+    </laptop>
+    <laptop>
+      <maker>Samsung</maker>
+      <model>S1</model>
+      <parameters>
+        <cpu>Intel Core i3-4005U</cpu>
+        <ram>6</ram>
+        <hdd>500</hdd>
+      </parameters>
+    </laptop>
+  </lowClass>
+</classTypes>

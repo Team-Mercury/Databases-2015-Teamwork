@@ -50,6 +50,8 @@
 
                         using (var reader = dataSet.CreateDataReader())
                         {
+                            reader.Read();
+
                             while (reader.Read())
                             {
                                 action(reader);

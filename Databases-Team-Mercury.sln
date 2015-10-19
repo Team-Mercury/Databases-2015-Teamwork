@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateMongoDatabase", "CreateMongoDatabase\CreateMongoDatabase.csproj", "{FE787E9C-B994-4DFA-A46A-A9D229617ECC}"
 EndProject
@@ -22,7 +22,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateJsonReport", "CreateJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteAndMySqlToExcel", "SqliteAndMySqlToExcel\SqliteAndMySqlToExcel.csproj", "{4E861EB6-86CD-4F9A-8011-FBDB89055B41}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToMySql", "JsonToMySql\JsonToMySql.csproj", "{834E627B-C4EF-4FBC-827C-76E14B04708C}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfReportGenerator", "PdfReportGenerator\PdfReportGenerator.csproj", "{33A6105E-864B-43E7-BAF9-A5ECEBC42556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfReports", "PdfReports\PdfReports.csproj", "{A4B96FA1-A8A0-46B0-9FF3-D754E8CE6405}"
+>>>>>>> 2afdfb0c28a158540eb908ac90d0c46680779cfa
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,10 +76,21 @@ Global
 		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E861EB6-86CD-4F9A-8011-FBDB89055B41}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{834E627B-C4EF-4FBC-827C-76E14B04708C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{834E627B-C4EF-4FBC-827C-76E14B04708C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834E627B-C4EF-4FBC-827C-76E14B04708C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834E627B-C4EF-4FBC-827C-76E14B04708C}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A6105E-864B-43E7-BAF9-A5ECEBC42556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B96FA1-A8A0-46B0-9FF3-D754E8CE6405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B96FA1-A8A0-46B0-9FF3-D754E8CE6405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B96FA1-A8A0-46B0-9FF3-D754E8CE6405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B96FA1-A8A0-46B0-9FF3-D754E8CE6405}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 2afdfb0c28a158540eb908ac90d0c46680779cfa
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
