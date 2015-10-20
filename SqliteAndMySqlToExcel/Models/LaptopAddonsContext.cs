@@ -1,4 +1,4 @@
-﻿namespace SqliteAndMySqlToExcel
+﻿namespace SqliteAndMySqlToExcel.Models
 {
     using System.Data.Entity;
 
