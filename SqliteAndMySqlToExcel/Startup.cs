@@ -12,14 +12,15 @@
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Reading from MySqlDatabase if imported of course.");
             var MySqlLoader = new MySqlLoader();
             MySqlLoader.Data = LoadDataFromMySql();
             SaveDataToExcelSpreadsheet(MySqlLoader);
 
-            //Make sure to uncomment the connection string in App.config for SqliteLoader!
-            //var sqliteLoader = new SqliteLoader();
-            //sqliteLoader.Data = LoadDataFromSQLite();
-            //SaveDataToExcelSpreadsheet(sqliteLoader);
+            Console.WriteLine("Reading from Sqlite Database.");
+            var sqliteLoader = new SqliteLoader();
+            sqliteLoader.Data = LoadDataFromSQLite();
+            SaveDataToExcelSpreadsheet(sqliteLoader);
         }
 
         public static List<Report> LoadDataFromMySql()
